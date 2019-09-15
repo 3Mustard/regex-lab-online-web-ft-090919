@@ -15,14 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  a = phone.match(/\d\d\d\d\d\d\d\d\d\d/)
-  b = phone.match(/\W\d\d\d\W\d\d\d\W\d\d\d\d/)
-  c = phone.match(/\d\d\d\W\d\d\d\W\d\d\d\d\/)
-  d = phone.match(/\W\d\d\d\W\d\d\d\d\d\d\d/)
-  
-  if a || b || c || d
-    true
-  else 
-    false 
-  end
+  phone.match(//)
 end
