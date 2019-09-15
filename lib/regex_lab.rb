@@ -16,5 +16,6 @@ end
 
 def valid_phone_number?(phone)
   a = phone.match(/\d\d\d\d\d\d\d\d\d\d/)
-  b = phone.match()
+  b = phone.match(/\W\d\d\d\W\d\d\d\W\d\d\d\d/)
+  c = phone.match()
 end
