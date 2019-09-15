@@ -20,4 +20,9 @@ def valid_phone_number?(phone)
   c = phone.match(/\d\d\d\W\d\d\d\W\d\d\d\d\/)
   d = phone.match(/\W\d\d\d\W\d\d\d\d\d\d\d/)
   
+  if a || b || c || d
+    true
+  else 
+    false 
+  end
 end
